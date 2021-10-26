@@ -1,0 +1,23 @@
+$color-font: #33d ;
+$color-bg-default: #a9f;
+$font-default: Arial, Helvetica, sans-serif;
+
+body {
+    background-color: $color-bg-default;
+    font-family: $font-default;
+}
+
+h1 {
+    color: $color-font;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+}
