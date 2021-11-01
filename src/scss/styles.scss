@@ -1,19 +1,24 @@
-$color-font: #33d ;
-$color-bg-default: #a9f;
+$color-font: #fff;
+$color-bg-default: #33f;
 $font-default: Arial, Helvetica, sans-serif;
 
 body {
-    background-color: $color-bg-default;
+    background: url('../assets/background.jpg') no-repeat top center;
+    background-size: cover;
     font-family: $font-default;
+    margin: 0;
 }
 
 h1 {
     color: $color-font;
     text-align: center;
+    width: 100%;
 }
 
 .container {
+    display: block;
     max-width: 1200px;
+    margin: 0 auto;
     
     img {
         width: 100%;
